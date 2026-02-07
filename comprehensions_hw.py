@@ -1,11 +1,4 @@
-# This file contains the first homework assignment, about lists, strings, and
-# comprehensions.
-# You must rename this file as comprehensions_hw.py for the tests and autograder.
-
 def problem_1() -> str:
-    '''
-    Problem 1: Goal: Capitalize the zeroth letter of each word.
-    '''
     initial_string: str = (
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
@@ -24,9 +17,6 @@ def problem_1() -> str:
 
 
 def problem_2() -> str:
-    '''
-    Problem 2: Goal: Get every-other letter of the last sentence
-    '''
     initial_string: str = (
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
         "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
@@ -42,12 +32,7 @@ def problem_2() -> str:
 
     return even_letters_of_last_sentence
 
-
 def problem_3() -> dict:
-    '''
-    Problem 3: Goal: Create a dictionary whose keys are the characters of the
-    sentence and values are their frequencies.
-    '''
     initial_string: str = (
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
         "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
